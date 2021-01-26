@@ -1,3 +1,2 @@
-#還沒寫好
 a=int(input())
-print(a//60)
+print(a//60 , a%60)
