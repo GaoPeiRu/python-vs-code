@@ -1,5 +1,5 @@
 a=[int(i) for i in input().split()]
-max=a
+max(a)
 #print(len(set(a)))
 b=[]
 count=0
