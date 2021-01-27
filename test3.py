@@ -1,6 +1,9 @@
-a=int(input())
-if a>0:
-    print("ues")
-else:
-    print("aaa")
-  
+#a=[1,2,3]
+#a.append(4)
+#a=a+[5]
+#for item in a:
+#    print(item,end=" ")
+#print(*a)
+s=input()
+a=[int(i) for i in s.split()]
+print(a)

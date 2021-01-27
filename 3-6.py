@@ -1,6 +1,8 @@
 #還沒打
 a=int(input())
-if a//100>a//10//10>a//10:
+b=a%100
+c=a%10
+if a//100>b>c:
     print("YES")
 else:
     print("No")
