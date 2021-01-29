@@ -1,2 +1,4 @@
 a=int(input())
 print(a%100//10)
+
+#print(int(input()) % 100 // 10)
