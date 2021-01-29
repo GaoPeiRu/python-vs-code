@@ -1,3 +1,4 @@
+#
 a=int(input())
 i=0
 sum=0
