@@ -1,11 +1,16 @@
-a=[int(i) for i in input().split()]
-max(a)
-#print(len(set(a)))
+a=int(input())
 b=[]
-count=0
-for i in a:
-    if i not in b:
-        b.append(i)
-        count+=1
-print(count)
-print(b)
+
+while a!=0:
+  b.append(a)
+  a=int(input())
+
+print(max(b))
+
+
+#maximum = a = int(input())
+#while a != 0:
+  #a = int(input())
+  #if a >= maximum:
+    #maximum = a
+#print(maximum)
