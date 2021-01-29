@@ -4,8 +4,7 @@ if a%2==1:
 else:
     print("even")
 
-# a=int(input())
-#if a%2==0:
-   # print("even")
+#if int(input()) % 2 == 0:
+  #print('even')
 #else:
-    #print("odd")
+  #print('odd')
