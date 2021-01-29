@@ -1,3 +1,4 @@
+#
 s=input()
 d=' '
 for i in range(len(s)):
