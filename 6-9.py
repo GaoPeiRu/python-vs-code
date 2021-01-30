@@ -1,18 +1,19 @@
-a=0
-b=0
-c=0
+p=0
+z=0
+s=0
 while True:
-  d=int(input())
-  if d==0:
+  a=int(input())
+  if a==0:
     break
-  while b=d
-  print(b)
-  a+=1
-  print(a,'***')
-  if a==a:
-    break
-  while b>d:
-    print(b)
-    a+=1
-    if a==a:
+  while z<a:
+    z=a
+    print(z)
+    p+=1
+    print(p,'***')
+    if p==p:
+      break
+  while z>a:
+    print(z)
+    p+=1
+    if p==p:
       break
