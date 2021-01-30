@@ -1,19 +1,19 @@
-p=0
-z=0
-s=0
-while True:
-  a=int(input())
-  if a==0:
-    break
-  while z<a:
-    z=a
-    print(z)
-    p+=1
-    print(p,'***')
-    if p==p:
-      break
-  while z>a:
-    print(z)
-    p+=1
-    if p==p:
-      break
+maximum = a = int(input())
+index_a, index_max = 1, 1
+while a != 0:
+  a = int(input())
+  index_a += 1
+  if a > maximum:
+    maximum, index_max = a, index_a
+print(index_max)
+
+#maximum = a = int(input())
+#maximum_index = 1
+#i = 1
+#while a != 0:
+  #a = int(input())
+  #i += 1
+  #if a > maximum:
+    #maximum = a
+    #maximum_index = i
+#print(maximum_index)
